@@ -3,7 +3,7 @@
         <x-slot name="logo">
             <x-authentication-card-logo />
         </x-slot>
-
+             <h1>Git Clone</h1>
         <x-validation-errors class="mb-4" />
 
         @session('status')
@@ -38,8 +38,7 @@
                         {{ __('Forgot your password?') }}
                     </a>
                 @endif
- 
-
+                 
 
                 <x-button class="ms-4">
                     {{ __('Log in') }}
