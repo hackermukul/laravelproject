@@ -3,7 +3,7 @@
         <x-slot name="logo">
             <x-authentication-card-logo />
         </x-slot>
-            
+            <h1>tesrt</h1>
         <x-validation-errors class="mb-4" />
 
         @session('status')
@@ -11,7 +11,7 @@
                 {{ $value }}
             </div>
         @endsession
-        
+         
         <form method="POST" action="{{ route('login') }}">
             @csrf
             <div>
